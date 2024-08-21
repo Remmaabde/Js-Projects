@@ -28,7 +28,10 @@ function stopTimer() {
   clearInterval(interval);
 }
 
-function pauseTimer() {}
+function pauseTimer() {
+  clearInterval(interval);
+  pauseButton.disabled = true;
+}
 
 function resetTimer() {}
 function updateTimer() {
