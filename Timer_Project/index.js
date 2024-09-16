@@ -75,6 +75,6 @@ function addToLapList() {
   const listItem = document.createElement('li');
   listItem.innerHTML = `<span> Lap ${
     lapList.childElementCount + 1
-  } : <span> ${lapTime}`;
+  } : </span> ${lapTime}`;
   lapList.appendChild(listItem);
 }
